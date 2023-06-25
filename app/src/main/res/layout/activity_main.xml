@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/phoneButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вызов телефона"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/contactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Контакты"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Очистить"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/stackTrace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="34sp"
+        />
+
+
+</LinearLayout>
